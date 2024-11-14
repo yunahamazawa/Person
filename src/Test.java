@@ -1,12 +1,11 @@
 
 public class Test {
-	public static void main(String[] args) {
-		Person hanako= new Person();
-		hanako.name="鈴木花子";
-		hanako.age=16;
+	public static void main(String[] args) {	
+		Person yuna= new Person();
+		yuna.name="濱澤優奈";
+		yuna.age=25;
 	
-		System.out.println(hanako.name);
-		System.out.println(hanako.age);
-
-	}
+		System.out.println(yuna.name);
+		System.out.println(yuna.age);
+}
 }
